@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Nice to meet you!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm currently a third year student at the University of Waterloo studying **Computer Science and Combinatorics & Optimization**. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+My previous experiences include two internships at AMD where I first worked as a software engineer on the kernel mode driver team. I later joined the SDK and technology team to work on multimedia SDKs. I've also worked as a backend developer at [Stealth Monitoring][stealth-monitor] for my first coop.
 
+My main interests include [hardware-accelerated machine learning][hardware-accel], operating systems, parallel programming and optimization.
 
-[jekyll-organization]: https://github.com/jekyll
+I'm open for internships for Fall 2021 and Spring 2022. 
+
+[stealth-monitor]: https://stealthmonitoring.com
+[hardware-accel]: https://openai.com/blog/ai-and-compute/
