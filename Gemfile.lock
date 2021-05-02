@@ -63,15 +63,20 @@ GEM
       ffi (~> 1.9)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    texture (0.5)
+      jekyll (>= 3.7)
+      jekyll-seo-tag (>= 2.1)
     unicode-display_width (1.7.0)
 
 PLATFORMS
+  ruby
   x86_64-linux
 
 DEPENDENCIES
   jekyll (~> 4.2.0)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
+  texture
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
