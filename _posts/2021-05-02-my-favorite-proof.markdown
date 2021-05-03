@@ -34,7 +34,7 @@ _Proof:_ Suppose otherwise and let $m$ be a minimal counter example. Then it mea
 1. $m$ is a natural number that cannot be written as a product of prime and,
 2. Any natural number $n$, with $n < m$ **can** be written as a product of primes
 
-From our first remark, $m$ must isn't a prime number. So, we can find other natural numbers $p, q$ such that we have $m = p \times q$. Note that we must have $a < m$ and $b < m$. Therefore by our second remark, we get that both $a, b$ are written as a product of primes. But since have $m = p \times q$, it must be that $m$ can be written as a product of primes also, a contradiction. _QED_
+From our first remark, $m$ must isn't a prime number. So, we can find other natural numbers $p, q$ such that we have $m = p \times q$. Note that we must have $a < m$ and $b < m$. Therefore by our second remark, we get that both $p, q$ are written as a product of primes. But since have $m = p \times q$, it must be that $m$ can be written as a product of primes also, a contradiction. _QED_
 
 Hopefully this example gives you a sense what "smaller" means in this context. The next example gets a little more involved, and uses graph theory as a motivation. For the proof below, I will use a know fact that for a graph $G = (V,E)$, if $e$ is an edge in $G$ that isn't in a cycle, then $G - e$ is not connected.
 
@@ -43,6 +43,7 @@ Hopefully this example gives you a sense what "smaller" means in this context. T
 _Proof_: Suppose otherwise and let $G = (V,E)$ be a counterexample with as few _edges_ as possible. This means that:
 1. $G$ is non-empty and $\|E\| \ge \|V\|$ but has no cycle.
 2. If $H$ is a non-empty graph with $\|E(H)\| \ge \|V(H)\|$ that has _fewer_ edges than $G$, then $H$ must have a cycle.
+
 Since $G$ is non-empty and $\|E\| \ge \|V\|$, $G$ must have an edge. Let $e$ be such edge. By our fact mentioned above, we have that $G - e$ is not connected.
 
 Let $H_1, \dots H_k$ be the components of $G - e$. Since $G$ doesn't have a cycle, then surely none of $H_1, \dots H_k$ have cycles either. Then it means that for each $H_i$, we have that $\|E(H_i)\| \le \|V(H_i)\|$. Observe the following:
