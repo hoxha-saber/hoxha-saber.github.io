@@ -2,7 +2,7 @@
 layout: post
 title:  "Smart pointers in C++"
 date:   2021-05-02 15:42:12 -0400
-categories: jekyll update
+categories: c++
 description: A tour of smart pointers in C++14
 ---
 Since C++ is has inherited alot of its features from C, people seem to have this misconception that modern C++ is hard to use due to pointers and memory management. In this post, I'll go over some useful features that are included in the standard library (C++11 and ownward).

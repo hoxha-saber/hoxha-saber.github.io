@@ -2,7 +2,7 @@
 layout: post
 title:  "My favorite proof method"
 date:   2021-05-02 17:49:12 -0400
-categories: jekyll update
+categories: graph-theory
 description: Graph theory has some unique proofs
 ---
 <style TYPE="text/css">
